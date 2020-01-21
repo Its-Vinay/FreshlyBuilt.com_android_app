@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_groups"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/post_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Title"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/post_Title"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="12sp"
+        android:layout_marginRight="5dp"
+        android:hint="Post Title"/>
+
+        <TextView
+            android:layout_below="@id/post_Title"
+            android:id="@+id/Post_Tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Tags"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"></TextView>
+        <EditText
+            android:layout_below="@id/post_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/Post_Tags"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:layout_marginRight="5dp"
+            android:hint="Post Tags"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_below="@id/Post_Tags"
+        android:layout_above="@+id/submit_write"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="4dp"
+        app:boxStrokeColor="@android:color/black">
+        <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="12sp"
+        android:hint="Type_here" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/submit_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"/>
+
+
+
+</RelativeLayout>

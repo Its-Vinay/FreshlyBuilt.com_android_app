@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Website</string>
+    <string name="home">Home</string>
+    <string name="group">Groups</string>
+    <string name="q_a">Q _ A</string>
+    <string name="write">Write</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="join_us">Join us</string>
+    <string name="faq">FAQ</string>
+    <string name="logout">Logout</string>
+    <string name="donate">Donate</string>
+    <string name="share">Share</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>
